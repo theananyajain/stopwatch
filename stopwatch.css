@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: gilroy;
+  font-family: "DS-Digital";
+}
+@font-face {
+  font-family: "DS-Digital";
+  src: url(./6013d9f2a0ac3100b61cffde.ttf);
 }
 html,
 body {
@@ -36,11 +40,19 @@ h1 {
 button {
   font-size: 2.3vh;
   padding: 1vh;
-  margin: 1vh;
+  margin: .8vh;
   background-color: rgb(226, 74, 100);
   color: #fff;
   border-radius: 5px;
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+}
+@media (max-width:500px){
+  
+#container{
+  padding: 4vh;
+  box-shadow: 15px 15px 20px;
+}
+  
 }
